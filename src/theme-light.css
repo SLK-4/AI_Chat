@@ -1,0 +1,51 @@
+/* Light theme overrides - applied when .dark class is removed from root */
+
+html:not(.dark) {
+  --background: hsl(210 20% 98%);
+  --foreground: hsl(222 47% 11%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(222 47% 11%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(222 47% 11%);
+  --primary: hsl(178 70% 35%);
+  --primary-foreground: hsl(180 20% 98%);
+  --secondary: hsl(210 40% 96%);
+  --secondary-foreground: hsl(222 47% 11%);
+  --muted: hsl(210 40% 96%);
+  --muted-foreground: hsl(215 16% 47%);
+  --accent: hsl(210 40% 94%);
+  --accent-foreground: hsl(222 47% 11%);
+  --border: hsl(214 32% 91%);
+  --input: hsl(214 32% 91%);
+  --ring: hsl(178 70% 35%);
+  --chart-1: hsl(178 70% 35%);
+  --chart-2: hsl(208 70% 50%);
+  --chart-3: hsl(238 70% 55%);
+  --chart-4: hsl(268 70% 55%);
+  --chart-5: hsl(298 70% 55%);
+
+  --sidebar: hsl(210 40% 98%);
+  --sidebar-foreground: hsl(222 47% 11%);
+  --sidebar-primary: hsl(178 70% 35%);
+  --sidebar-primary-foreground: hsl(180 20% 98%);
+  --sidebar-accent: hsl(210 40% 94%);
+  --sidebar-accent-foreground: hsl(178 70% 35%);
+  --sidebar-border: hsl(214 32% 91%);
+  --sidebar-ring: hsl(178 70% 35%);
+}
+
+/* Prose light mode tweaks */
+html:not(.dark) .prose {
+  --tw-prose-body: hsl(222 47% 11%);
+  --tw-prose-headings: hsl(222 47% 11%);
+  --tw-prose-links: hsl(178 70% 35%);
+  --tw-prose-bold: hsl(222 47% 11%);
+  --tw-prose-code: hsl(222 47% 11%);
+  --tw-prose-quotes: hsl(215 16% 47%);
+  --tw-prose-quote-borders: hsl(214 32% 91%);
+  --tw-prose-hr: hsl(214 32% 91%);
+  --tw-prose-th-borders: hsl(214 32% 91%);
+  --tw-prose-td-borders: hsl(214 32% 91%);
+  --tw-prose-kbd: hsl(215 16% 47%);
+  --tw-prose-kbd-shadows: 215 16% 47%;
+}
